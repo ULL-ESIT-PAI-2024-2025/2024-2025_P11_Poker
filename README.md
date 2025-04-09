@@ -22,6 +22,6 @@ The project initial directory organization is as follows:
 Modify this file to include the usual information in any public project on GitHub. 
 Include at least two sections: 
 * Building and Running the code 
-** Explain in detail how from cloning your public repo your application has to be compiled, executed and deployed.
+  * Explain in detail how from cloning your public repo your application has to be compiled, executed and deployed.
 * Live Demo 
-** Include a link to the public URL where to find your applications (home work and evaluation)
+  * Include a link to the public URL where to find your applications (home work and evaluation)
