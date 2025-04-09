@@ -110,7 +110,7 @@ Si no se especifica algo diferente, al crear un objeto de esta clase se crearía
 
 A efectos de depuración es posible que le resulte útil desarrollar un método `toString()` que permita imprimir en consola un objeto `Card`.
 Las cartas han de poder imprimirse de forma que sean legibles para un humano.
-Así en pantalla se podría espera encontrar textos como:
+Así al escribir en consola se podría espera encontrar textos como:
 
 ```
 Ace of Diamonds
@@ -170,7 +170,7 @@ Una mano (*Hand*) es similar a un mazo: tanto un mazo como una mano están forma
 por un conjunto de cartas, y ambos requieren operaciones como añadir y quitar cartas.
 Una mano también es diferente de un mazo puesto que hay operaciones necesarias para las manos que no tienen sentido para un mazo. 
 Por ejemplo, en el póquer podríamos comparar dos manos para ver cuál gana. 
-El método que inicialice una mano debería inicializarla con un conjunto vacío de cartas:
+El constructor de una mano debería inicializarla con un conjunto vacío de cartas:
 
 ```typescript
 hand = new Hand('new hand')
@@ -210,7 +210,7 @@ Las siguientes son las posibles manos en el póquer, en orden creciente de valor
 * *Straight Flush* (Escalera real): cinco cartas en secuencia (como se definió anteriormente) y con el mismo palo.
 
 Añada a la clase `PokerHand` métodos llamados `hasPair()`, `hasTwopair()`, `hasThreeOfaKind()` etc. 
-que devuelven Verdadero o Falso según si la mano cumple o no los criterios pertinentes. 
+que devuelven Verdadero o Falso según si la mano cumple o no el correspondiente criterio. 
 Su código debería funcionar correctamente para manos que contengan cualquier número de 
 cartas (aunque 5 y 7 son los tamaños más comunes).
 
@@ -230,6 +230,9 @@ la representación gráfica de los diferentes elementos.
 Ha de añadir la lógica correspondiente para mostrar gráficamente en el navegador esos elementos: cartas,
 manos, etc.
 
+Utilice libremente los elementos HTML que considere más adecuados para la interfaz gráfica de su aplicación y
+dote de estilo a esos elementos utilizando Bulma.
+
 Desarrolle una página `poker.html` que muestre el viewport de su navegador dividido 
 en dos mitades, superior e inferior. 
 En cada una de las dos mitades (dos filas) ha de ubicar espacio para mostrar 5 cartas de 
@@ -240,16 +243,17 @@ El programa ha de indicar cuál de los dos jugadores gana: jugador número uno, 
 las cartas de la primera fila el número dos, a quien se asignan las cartas de la segunda fila.
 
 ### Presentación de resultados
+Se propone que, siguiendo el ejemplo de personalización de Bulma para su adaptación a la imagen corporativa de
+la ULL que se expuso en clase, personalice los estilos de todas sus páginas para que tengan el aspecto de las
+*páginas ULL*.
 La visualización de la ejecución del programa se realizará a través de una página web alojada
 en la máquina IaaS-ULL de la asignatura y cuya URL tendrá la forma:
 
 [1] `http://10.6.129.123:8080/einstein-albert-poker.html`
 
-en la que se incustará un lienzo (canvas) para dibujar las manos de la partida de poker.
+en la que se presentarán las manos de la partida de poker.
 Sustituya *Albert Einstein* por su nombre y apellido en la URL de su página
 y la dirección IP anterior por la correspondiente a su máquina IaaS.
-
-Utilice código HTML y CSS para lograr una página funcional y visualmente correcta.
 
 Diseñe asimismo otra página HTML simple 
 
@@ -271,9 +275,10 @@ desarrolle, aunque el CSS es el aspecto de menor importancia en este ejercicio.
 
 ## Referencias
 * [Poker](http://en.wikipedia.org/wiki/Poker)
+* [Bulma](https://bulma.io/)
 * [TypeDoc](https://typedoc.org/)
 * [Google TypeScript Style Guide](https://google.github.io/styleguide/tsguide.html)
 * [Google JavaScript Style Guide](https://google.github.io/styleguide/jsguide.html)
 * [ESLint](https://eslint.org/)
 * [JSDoc](https://jsdoc.app/)
-* [PAI Code Examples](https://github.com/ULL-ESIT-PAI-2022-2023/PAI-class-code-examples)
+* [PAI Code Examples](https://github.com/ULL-ESIT-PAI-2024-2025/PAI-class-code-examples)
