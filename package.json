@@ -1,7 +1,7 @@
 {
-  "name": "Práctica 10 de PAI",
+  "name": "Práctica 11 de PAI",
   "version": "1.0.0",
-  "description": "Lissajous Curves",
+  "description": "Poker Game",
   "private": true,
   "main": "index.js",
   "scripts": {

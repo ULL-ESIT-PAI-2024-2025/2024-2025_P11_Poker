@@ -11,9 +11,17 @@ This text is Markdown text. To learn about Markdown, Study these references:
 * [StackEdit. An On-line MarkDown Editor](https://stackedit.io/)
 * [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-The project directory organization is as follows:
-
+The project initial directory organization is as follows:
+```
 .
 └── src
     ├── evaluation-session
     └── home-work
+```
+
+Modify this file to include the usual information in any public project on GitHub. 
+Include at least two sections: 
+* Building and Running the code 
+** Explain in detail how from cloning your public repo your application has to be compiled, executed and deployed.
+* Live Demo 
+** Include a link to the public URL where to find your applications (home work and evaluation)
