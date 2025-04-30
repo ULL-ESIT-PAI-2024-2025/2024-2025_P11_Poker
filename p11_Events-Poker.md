@@ -69,6 +69,7 @@ desarrollo TDD.
 Incluya en ese fichero dos apartados, Building and Running the code y Live Demo. 
 En el primero de ellos ha de explicar en detalle cómo a partir de clonar su repo público ha de compilarse, ejecutarse y desplegarse su aplicación, 
 mientras que en el segundo ha de incluir un enlace (véase el apartado *Presentación de resultados de este documento*) a la URL pública donde deberá estar disponible su aplicación.
+Haga que el fichero `README.md` de su proyecto sea la primera página de la documentación del mismo.
 
 ### El juego del Poker
 En esta práctica se propone desarrollar una aplicación web SPA 
