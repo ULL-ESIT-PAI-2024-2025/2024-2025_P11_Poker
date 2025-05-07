@@ -243,7 +243,10 @@ visualización de una mano (5 cartas) asignadas a cada jugador.
 El programa ha de indicar cuál de los dos jugadores gana: jugador número uno, al que correponden 
 las cartas de la primera fila el número dos, a quien se asignan las cartas de la segunda fila.
 
-### Presentación de resultados
+### Interfaz gráfica de la aplicación 
+La interfaz gráfica de la aplicación se desarrollará a través de diferentes páginas HTML.
+Haga que en el elemento `title` del código HTML de todas las páginas web de su poroyecto figure su nombre y apellidos.
+
 Se propone que, siguiendo el ejemplo de personalización de Bulma para su adaptación a la imagen corporativa de
 la ULL que se expuso en clase, personalice los estilos de todas sus páginas para que tengan el aspecto de las
 *páginas ULL*.
